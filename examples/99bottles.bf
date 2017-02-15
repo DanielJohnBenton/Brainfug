@@ -1,38 +1,3 @@
-# Brainfug
-
-A [Brainfug](https://en.wikipedia.org/wiki/Brainfuck) interpreter!
-
-# Examples of usage
-
-## Hello world
-
-Credit: [Esolang](https://esolangs.org/wiki/Brainfuck#Hello.2C_World.21)
-
-Code:
-
-```
-++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
-```
-
-Command:
-
-```
-.\brainfug examples/helloworld.bf
-```
-
-Output:
-
-```
-Hello World!
-```
-
-## 99 Bottles
-
-Credit: [Aki Rossi - 99 Bottles of Beer](http://www.99-bottles-of-beer.net/language-brainfuck-1539.html)
-
-Code:
-
-```
 ################################################
 #                                              #
 # 99 bottles of beer in 976 bytes of Brainfuck #
@@ -187,38 +152,3 @@ Code:
 	>>+++++++++++	reset comma
 	>>>>>>>		go to beer counter (9)
 ]
-```
-
-Command:
-
-```
-.\brainfug examples/99bottles.bf
-```
-
-Output:
-
-```
-99 bottles of beer on the wall,
-99 bottles of beer,
-take one down and pass it around,
-98 bottles of beer on the wall!
-
-98 bottles of beer on the wall,
-98 bottles of beer,
-take one down and pass it around,
-97 bottles of beer on the wall!
-```
-
-(some verses removed because the output is quite lengthy!)
-
-```
-2 bottles of beer on the wall,
-2 bottles of beer,
-take one down and pass it around,
-1 bottle of beer on the wall!
-
-1 bottle of beer on the wall,
-1 bottle of beer,
-take one down and pass it around,
-no bottles of beer on the wall!
-```
