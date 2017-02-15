@@ -4,7 +4,7 @@ A [Brainfug](https://en.wikipedia.org/wiki/Brainfuck) interpreter!
 
 # Examples of usage
 
-## Hello world
+## Hello World
 
 Credit: [Esolang](https://esolangs.org/wiki/Brainfuck#Hello.2C_World.21)
 
