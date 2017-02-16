@@ -241,6 +241,12 @@ take one down and pass it around,
 no bottles of beer on the wall!
 ```
 
+# Specifics
+* Nested loop capable!
+* Negative values allowed - memory blocks are signed integers (`signed int`)
+* Infinite number of memory blocks allowed
+* Enforces against negative pointer locations - must be 0 or above
+
 # Technologies used
 * Languages: C++, Brainfuck
 * Compiler: gcc / Code::Blocks
