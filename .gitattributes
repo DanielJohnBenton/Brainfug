@@ -1,0 +1,2 @@
+*.bf diff=brainfuck
+*.cpp diff=cplusplus
