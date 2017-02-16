@@ -2,6 +2,20 @@
 
 A [Brainfug](https://en.wikipedia.org/wiki/Brainfuck) interpreter!
 
+# What is Brainfuck?
+The language consists of only eight simple commands and an instruction pointer. While it is fully Turing-complete, it is not intended for practical use, but to challenge and amuse programmers.
+
+*	>	Move the pointer to the right
+*	<	Move the pointer to the left
+*	+	Increment the memory cell under the pointer
+*	-	Decrement the memory cell under the pointer
+*	.	Output the character signified by the cell at the pointer
+*	,	Input a character and store it in the cell at the pointer
+*	[	Jump past the matching ] if the cell under the pointer is 0
+*	]	Jump back to the matching [ if the cell under the pointer is nonzero
+
+There are many clones of this language that are essentially the same thing but with different operators (e.g. [Ook](https://esolangs.org/wiki/Ook!)) sometimes with additional capabilities or requirements.
+
 # Examples of usage
 
 ## Hello World
@@ -222,3 +236,12 @@ take one down and pass it around,
 take one down and pass it around,
 no bottles of beer on the wall!
 ```
+
+# Technologies used
+* Languages: C++, Brainfuck
+* Compiler: gcc / Code::Blocks
+
+# Acknowledgements
+* [Esolangs - Brainfuck](https://esolangs.org/wiki/Brainfuck) - everything you need to make an interpreter
+* [Aki Rossi - 99 Bottles of Beer](http://www.99-bottles-of-beer.net/language-brainfuck-1539.html)
+* [Urban Müller](https://esolangs.org/wiki/Urban_M%C3%BCller)
