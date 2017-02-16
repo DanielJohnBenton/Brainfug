@@ -230,7 +230,7 @@ int main(int argc, char* argv[])
 	{
 		nLines++;
 		
-		code += ((nLines > 1) ? line +"\n" : line);
+		code += ((nLines > 1) ? "\n"+ line : line);
 	}
 	
 	fugFile.close();
