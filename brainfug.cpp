@@ -149,7 +149,7 @@ void Brainfug(string code)
 						{
 							xLoop++;
 						}
-						if(code.at(i) == ']')
+						else if(code.at(i) == ']')
 						{
 							xLoop--;
 						}
@@ -175,7 +175,7 @@ void Brainfug(string code)
 						{
 							xLoop++;
 						}
-						if(code.at(i) == ']')
+						else if(code.at(i) == ']')
 						{
 							xLoop--;
 						}
