@@ -7,14 +7,14 @@ Be warned - the real name contains a rude word! (spine_chilling.wav)
 # What is Brainfug?
 Brainfuck consists of only eight simple commands and an instruction pointer. While it is fully Turing-complete, it is not intended for practical use, but to challenge and amuse programmers.
 
-*	**>**	Move the pointer to the right
-*	**<**	Move the pointer to the left
-*	**+**	Increment the memory cell under the pointer
-*	**-**	Decrement the memory cell under the pointer
-*	**.**	Output the character signified by the cell at the pointer
-*	**,**	Input a character and store it in the cell at the pointer
-*	**[**	Jump past the matching ] if the cell under the pointer is 0
-*	**]**	Jump back to the matching [ if the cell under the pointer is nonzero
+|>|Move the pointer to the right|
+|<|Move the pointer to the left|
+|+|Increment the memory cell under the pointer|
+|-|Decrement the memory cell under the pointer|
+|.|Output the character signified by the cell at the pointer|
+|,|Input a character and store it in the cell at the pointer|
+|[|Jump past the matching ] if the cell under the pointer is 0|
+|]|Jump back to the matching [ if the cell under the pointer is nonzero|
 
 There are many clones of this language that are essentially the same thing but with different operators (e.g. [Ook](https://esolangs.org/wiki/Ook!)) sometimes with additional capabilities or requirements.
 
