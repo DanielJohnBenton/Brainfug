@@ -1,2 +1,5 @@
 *.bf diff=brainfuck
 *.cpp diff=cplusplus
+
+*.bf linguist-language=Brainfuck
+*.cpp linguist-language=C++
