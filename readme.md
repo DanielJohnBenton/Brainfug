@@ -2,8 +2,10 @@
 
 A [Brainfug](https://en.wikipedia.org/wiki/Brainfuck) interpreter!
 
-# What is Brainfuck?
-The language consists of only eight simple commands and an instruction pointer. While it is fully Turing-complete, it is not intended for practical use, but to challenge and amuse programmers.
+Be warned - the real name contains a rude word! (spine_chilling.mp3)
+
+# What is Brainfug?
+Brainfuck consists of only eight simple commands and an instruction pointer. While it is fully Turing-complete, it is not intended for practical use, but to challenge and amuse programmers.
 
 *	>	Move the pointer to the right
 *	<	Move the pointer to the left
