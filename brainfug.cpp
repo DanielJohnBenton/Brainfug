@@ -249,7 +249,7 @@ int main(int argc, char* argv[])
 	
 	Brainfug(code);
 	
-	cout << endl << endl;
+	cout << endl;
 	
 	return 0;
 }
