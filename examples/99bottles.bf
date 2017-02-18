@@ -1,21 +1,21 @@
-################################################
-#                                              #
-# 99 bottles of beer in 976 bytes of Brainfuck #
-# Composed by Aki Rossi                        #
-# aki dot rossi at iki dot fi                  #
-#                                              #
-################################################
+================================================
+=                                              =
+= 99 bottles of beer in 976 bytes of Brainfuck =
+= Composed by Aki Rossi                        =
+= aki dot rossi at iki dot fi                  =
+=                                              =
+================================================
 
-#
-# Set beer counter to 99
-#
+=
+= Set beer counter to 99
+=
 >>>>>>>>>
 >++++++++++[-<++++++++++>]<-
 <<<<<<<<<
 
-#
-# Create output registers
-#
+=
+= Create output registers
+=
 ++++++++++[->++++>++++>++++>++++<<<<]	add 0x28 to all from (1) to (4)
 ++++++++[->>>++++++++>++++++++<<<<]	add 0x40 to all from (3) and (4)
 ++++[->>>>++++<<<<]			add 0x10 to (4)
@@ -25,27 +25,27 @@
 
 >>>>>>>			go to beer counter (9)
 [
-	# Verse init
+	= Verse init
 	<<<<
 	+++	state 1 in (5)
 	>+	state 2 in (6)
 	>++	state 3 in (7)
 	<<	go to (5)
 	[
-		#####################
-		# N bottles of beer #
-		#####################
+		=====================
+		= N bottles of beer =
+		=====================
 		>>>>		go to (9)
 		[
-			# Print the number in (9)
-			# (conversion routine uncommented to save space)
+			= Print the number in (9)
+			= (conversion routine uncommented to save space)
 			[->+>+<<]>>[-<<+>>]<[>++++++++++[->>+>+<<<]
 			<[>>>[-<<<-[>]>>>>[<[>]>[---------->>]<++++
 			++[-<++++++++>]<<[<->[->-<]]>->>>[>]+[<]<<[
 			->>>[>]<+[<]<<]<>>]<<]<+>>[->+<<+>]>[-<+>]<
 			<<<<]>>[-<<+>>]<<]>[-]>>>>>>[>]<[.[-]<]
 			<<<<<<
-			# and remain in (10) which is empty
+			= and remain in (10) which is empty
 		]>+<<	inc (11) and go to (9)
 		[>]>>	if (9) empty go to (11) else (12)
 		[
@@ -81,9 +81,9 @@
 
 		>>		go to (6)
 
-		###############
-		# on the wall #
-		###############
+		===============
+		= on the wall =
+		===============
 		[
 			<<<<<.		SP
 			>>+++++++.-.	on
@@ -98,15 +98,15 @@
 			-		dec (6)
 		]
 
-		#
-		# comma LF
-		#
+		=
+		= comma LF
+		=
 		<<<<.
 		<<.
 		
-		####################################
-		# take one down and pass it around #
-		####################################
+		====================================
+		= take one down and pass it around =
+		====================================
 		>>>>>>>		go to (7)
 		-		dec (7)
 		[>]>>		if not blank then skip loop
