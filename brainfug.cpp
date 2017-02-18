@@ -181,6 +181,22 @@ void Brainfug(string code)
 				break;
 			}
 			
+			case '#': // traditional debug command - not part of language specification
+			{
+				unsigned long nStuff = stuff.size();
+				
+				cout <<"=== DEFUG ==="<< endl <<" There are "<< nStuff <<" cells."<< endl;
+				
+				for(unsigned long iStuff = 0; iStuff < nStuff; iStuff++)
+				{
+					cout <<"["<< (iStuff + 1) <<"]\t"<< stuff[iStuff] << endl;
+				}
+				
+				cout <<"============="<< endl;
+				
+				break;
+			}
+			
 			default:
 			{
 				break;
