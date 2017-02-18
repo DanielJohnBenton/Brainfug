@@ -136,8 +136,6 @@ void Brainfug(string code)
 					{
 						i++;
 						
-						//cout << t << " : "<< xLoop << endl;
-						
 						if(i >= lCode)
 						{
 							Error("Went beyond code.", i);
