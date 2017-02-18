@@ -126,13 +126,12 @@ void Brainfug(string code)
 			
 			case '[':
 			{
-				unsigned int t = loops[position];
-				
 				if(stuff[position] == 0)
 				{
-					unsigned int xLoop = t;
+					unsigned int targetLoopLevel = loops[position] - 1;
+					unsigned int xLoop = loops[position];
 					
-					while(xLoop != (t - 1))
+					while(xLoop != targetLoopLevel)
 					{
 						i++;
 						
@@ -159,13 +158,12 @@ void Brainfug(string code)
 			
 			case ']':
 			{
-				unsigned int t = loops[position];
-				
 				if(stuff[position] != 0)
 				{
-					unsigned int xLoop = t;
+					unsigned int targetLoopLevel = loops[position] + 1;
+					unsigned int xLoop = loops[position];
 					
-					while(xLoop != (t + 1))
+					while(xLoop != targetLoopLevel)
 					{
 						i--;
 						
